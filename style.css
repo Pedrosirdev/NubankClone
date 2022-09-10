@@ -1,0 +1,195 @@
+#nav {
+    padding-left: 2em;
+    background-color: #fff;
+}
+#nav > div > button {
+    border: none;
+}
+#nav > div > button:hover {
+    border: none;
+}
+#offcanvasNavbar > div.offcanvas-body > ul > li > a {
+    color: #000;
+}
+#offcanvasNavbar > div.offcanvas-body > ul > li > a:hover {
+    transform: scale(1.05);
+}
+            /* login*/
+
+#offcanvasNavbar > div.offcanvas-body > ul > div > a:hover {
+    background: rgb(151, 50, 219);
+    border: none;
+}
+#offcanvasNavbar > div.offcanvas-body > ul > div > a {
+    background: rgb(151, 50, 219);
+    border: none;
+    font-size: 14px;
+    height: 2.7em;
+}
+#offcanvasNavbar > div.offcanvas-body > ul > div > li > a > i {
+    margin-left: 3px;
+}
+
+#offcanvasNavbar > div.offcanvas-body > ul > div > li > a:hover {
+    transform: scale(1.1);
+}
+
+            /*DROP VOCE*/
+
+#offcanvasNavbar > div.offcanvas-body > ul > li.nav-item.dropdown > div > ul > div > div > li > a {
+    font-weight: 700;
+    margin-top: 7px;
+    font-size: 18px;
+}
+#offcanvasNavbar > div.offcanvas-body > ul > li.nav-item.dropdown > div > ul > div > div > li > a:hover {
+    color: rgb(130, 10, 209);
+    background-color: #fff;
+}
+#offcanvasNavbar > div.offcanvas-body > ul > li.nav-item.dropdown > div > ul > div > div:nth-child(2) > li:nth-child(2) > a > span,
+#offcanvasNavbar > div.offcanvas-body > ul > li.nav-item.dropdown > div > ul > div > div:nth-child(3) > li:nth-child(3) > a > span,
+#offcanvasNavbar > div.offcanvas-body > ul > li.nav-item.dropdown > div > ul > div > div:nth-child(4) > li:nth-child(3) > a > span,
+#offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(3) > div > ul > div > div:nth-child(1) > li:nth-child(3) > a > span {
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 6px;
+    background-color: rgb(214, 214, 229);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+#offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(2) > div > ul, 
+#offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(3) > div > ul, 
+#offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(4) > div > ul {
+    border: none;
+}
+#offcanvasNavbar > div.offcanvas-header > button {
+    background-color: rgb(208, 145, 250);
+    color: #000;
+    border-radius: 50%;
+    opacity: .8;
+    padding: 13px;
+}
+
+        /* SEÇÃO 01 */
+#home01 {
+    height: 40em;
+    background: url(imagens/nu\ background\ 01.jpg);
+    background-size: 100%;
+}
+#home01 > div {
+    margin-top: 3.6em;
+    padding-top: 12em;
+}
+#home01 > div > div > div:nth-child(1) > h3 {
+    font-weight: 600;
+    color: #fff;
+}
+#cpf {
+    border: none;
+    border-bottom: 1px solid rgb(74, 71, 71);
+    width: 100%;
+    margin-bottom: 2em;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+#home01 > div > div > div:nth-child(2) > form > input[type=submit]:nth-child(5) {
+    border-radius: 10px;
+    height: 2.5em;
+    font-size: 0.8em;
+    font-weight: 600;
+    width: 100%;
+    text-align: start;
+    padding: 6px 10px;
+    border: none;
+    color: rgb(120, 116, 116, 0.8);
+    background-color: rgb(214, 214, 229);
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+
+        /* SEÇÃO 02 */
+#home02 > div > div > div:nth-child(1) {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 30px;
+}
+#home02 > div > div > div:nth-child(2) {
+    padding: 30px;
+    background-color: #fff;
+}
+
+        /* SEÇÃO 03 */
+.linkcon {
+    text-decoration: none;
+    color: rgb(130, 10, 209);
+    font-weight: 600;
+}
+.linkcon:hover {
+    transform: scale(1.05);
+    width: 300px;
+    color: rgb(130, 10, 209);
+    display: block;
+}
+.pusepix {
+    font-weight: 600;
+}
+#home03 > div > div > div.col-lg-5.col-md-12.p-4 > a > i {
+    padding-left: 10px;
+    font-size: 14px;
+}
+#home03 {
+    padding-bottom: 2em;
+}
+
+        /* SEÇÃO 04 */
+#home04 {
+    margin-bottom: 2em;
+}
+
+        /* SEÇÃO 05 */
+#home05 {
+    margin-bottom: 3em;
+}
+
+        /* SEÇÃO 06 */
+#home06 {
+    padding-top: 2em;
+    background-color: rgb(214, 214, 229);
+    padding-bottom: 2em;
+}
+
+        /* SEÇÃO 07 */
+#home07 > div > div > div:nth-child(2) > div > img:nth-child(4),
+#home07 > div > div > div:nth-child(2) > div > img:nth-child(8),
+#home07 > div > div > div:nth-child(2) > div > img:nth-child(12) {
+    margin-bottom: 3em;
+}
+.linkmat {
+    color: rgb(130, 10, 209);
+    text-decoration: none;
+    font-weight: 600;
+    width: 200px;
+    display: block;
+}
+.linkmat:hover {
+    transform: scale(1.05);
+    color: rgb(130, 10, 209);
+
+}
+#home07 > div > div > div:nth-child(2) > div > a:nth-child(2) > i, 
+#home07 > div > div > div:nth-child(2) > div > a:nth-child(10) > i, 
+#home07 > div > div > div:nth-child(2) > div > a:nth-child(6) > i {
+    padding-left: 5px;
+}
+#nav > div > button > span > i {
+    font-size: 1.5em;
+    color: #000;
+}
+
+
+
+
+

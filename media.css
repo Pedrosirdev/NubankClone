@@ -1,0 +1,590 @@
+            /*media queries*/
+/*----------- X-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #offcanvasNavbar > div.offcanvas-body > ul > div {
+        flex-direction: column;
+    }
+    #offcanvasNavbar > div.offcanvas-body > ul > div > a {
+        background: rgb(130, 10, 209);
+        color: #fff;
+        font-weight: 600;
+        border-radius: 60px;
+        width: 100%;
+        padding-top: 7px;
+        border: none;
+    }
+    #offcanvasNavbar > div.offcanvas-body > ul > div > li > a:hover {
+        margin-left: 1em;
+    }
+                    /*NAV BAR*/
+    #offcanvasNavbar > div.offcanvas-body > ul {
+        font-size: 25px;
+        font-weight: 500;       
+    } 
+    #offcanvasNavbar > div.offcanvas-body > ul > div > li > a {
+        font-size: 25px;
+        color: #000;
+    }
+    /* SEÇÃO 01 */
+    #home01 {
+        margin-top: -10em;
+        background-image: url(imagens/nu\ background\ 01-2.jpg);
+        background-size: cover;
+        height: 60em;
+    }
+    #home01 > div > div > div:nth-child(2) > form > input[type=submit]:nth-child(5) {
+        border-radius: 10px;
+        height: 2.5em;
+        font-size: 0.8em;
+        font-weight: 600;
+        width: 100%;
+        text-align: start;
+        padding: 6px 10px;
+        border: none;
+        color: rgb(120, 116, 116, 0.8);
+        background-color: rgb(214, 214, 229);
+    }
+    #home01 > div > div > div:nth-child(2){
+        background-color: #fff;
+        border-radius: 5%;
+        height: 16em;
+        padding: 1.3em;
+        width: 80%;
+    }
+    #home01 > div > div {
+        justify-content: center;
+    }
+    .justify-content-between {
+        justify-content: space-between;
+    }
+    #home01 > div > div > div.col-lg-3.col-md-12 {
+        margin-top: 0.8em;
+        margin-bottom: 11em;
+    }
+
+    /* SEÇÃO 02 */
+
+    #home02 {
+        background-color: rgba(239, 239, 246, 0.962);
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    /* SEÇÃO 03 */
+
+    .imgphone {
+        display: block;
+        margin-top: 3em;
+    }
+    .imgmedio {
+        display: none;
+    }
+
+    /* SEÇÃO 04 */
+    #home04 {
+        background-image: url(imagens/back\ 04-sm.jpg);
+        background-size: cover;
+        background-position: right;
+        height: 40em;
+    }
+    .ofimda {
+        padding-top: 2em;
+        color: #fff;
+        font-weight: 600;
+    }
+    .paraquem {
+        width: 70%;
+        font-size: 1.3em;
+        color: #fff;
+        font-weight: 400;
+        margin-top: 1em;
+    }
+
+    /* RODAPE */
+    #rodape {
+        height: 35em;
+        background-image: url(imagens/1650481085-phone-with-app-open-and-card-2x-md.jpg);
+        background-size: cover;
+        background-position: right;
+    }   
+    .textrodape {
+        padding-top: 3em;
+        width: 100%;
+    }
+}
+
+
+/*-------Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    #offcanvasNavbar > div.offcanvas-body > ul > div {
+        flex-direction: column;
+    }
+    #offcanvasNavbar > div.offcanvas-body > ul > div > a {
+        background: rgb(130, 10, 209);
+        color: #fff;
+        font-weight: 600;
+        border-radius: 60px;
+        width: 100%;
+        padding-top: 7px;
+        border: none;
+    }
+    #offcanvasNavbar > div.offcanvas-body > ul > div > li > a:hover {
+        margin-left: 1em;
+    }
+                        /*NAV BAR*/
+    #offcanvasNavbar > div.offcanvas-body > ul {
+        font-size: 25px;
+        font-weight: 500;       
+        }
+    #offcanvasNavbar > div.offcanvas-body > ul > div > li > a {
+        font-size: 25px;
+        color: #000;
+    }
+
+    /* SEÇÃO 01 */
+    #home01 {
+        margin-top: -8em;
+        height: 65em;
+        background-image: url(imagens/nu\ background\ 01-1.jpg);
+        background-size: cover;
+    }
+    #home01 > div > div > div:nth-child(2){
+        background-color: #fff;
+        border-radius: 5%;
+        height: 18em;
+        padding: 1.3em;
+    }
+    #home01 > div > div {
+        justify-content: center;
+    }
+    .justify-content-between {
+        justify-content: space-between;
+    }
+    #home01 > div > div > div.col-lg-3.col-md-12 {
+        margin-top: 20px;
+        margin-bottom: 12em;
+    }
+
+    /* SEÇÃO 02 */
+
+    #home02 {
+        background-color: #fff;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    /* SEÇÃO 03 */
+    .imgphone {
+        display: none;
+    }
+    .imgmedio {
+        display: block;
+        margin-top: 2em;
+    }
+
+    /* SEÇÃO 04 */
+    #home04 {
+        background-image: url(imagens/back\ 04-md.jpg);
+        background-size: cover;
+        height: 40em;
+    }
+    .ofimda {
+        padding-top: 2em;
+        color: #fff;
+        font-weight: 600;
+    }
+    .paraquem {
+        width: 80%;
+        font-size: 1.3em;
+        color: #fff;
+        font-weight: 400;
+        margin-top: 1em;
+    }
+
+    /* RODAPE */
+    #rodape {
+        height: 35em;
+        background-image: url(imagens/1650481085-phone-with-app-open-and-card-2x-md.jpg);
+        background-size: cover;
+        background-position: 20%;
+    }   
+    .textrodape {
+        padding-top: 3em;
+        width: 80%;
+    }
+}
+
+
+/*----------------Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    #offcanvasNavbar > div.offcanvas-body > ul > div {
+        flex-direction: column;
+    }
+    #offcanvasNavbar > div.offcanvas-body > ul > div > a {
+        background: rgb(130, 10, 209);
+        color: #fff;
+        font-weight: 600;
+        border-radius: 60px;
+        padding-top: 7px;
+        border: none;
+    }
+    #offcanvasNavbar > div.offcanvas-body > ul > div > li > a:hover {
+        margin-left: 1em;
+    }
+                /*NAV BAR*/
+    #offcanvasNavbar > div.offcanvas-body > ul {
+        font-size: 25px;
+        font-weight: 500;       
+        } 
+    #offcanvasNavbar > div.offcanvas-body > ul > div > li > a {
+        font-size: 25px;
+        color: #000;
+    }
+                /*DROP SEU NEGOCIO*/
+    #offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(3) > div > ul {
+        width: 1100px;
+        margin-left: 0px;
+    }
+    /*DROP O NUBANK*/
+
+    #offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(4) > div > ul {
+        margin-left: 0px;
+        width: 950px;
+    }
+
+    /* SEÇÃO 01 */
+    #home01 {
+        margin-top: -9em;
+        height: 65em;
+        background: url(imagens/nu\ background\ 01-1.jpg) repeat-x;
+        background-size: 100%;
+    }
+    #home01 > div > div > div:nth-child(2){
+        background-color: #fff;
+        border-radius: 5%;
+        height: 18em;
+        padding: 1.3em;
+    }
+    #home01 > div > div {
+        justify-content: center;
+    }
+    #home01 > div > div > div.col-lg-3.col-md-12 {
+        margin-top: 20px;
+        margin-bottom: 26em;
+    }
+
+    /* SEÇÃO 02 */
+    #home02 {
+        background-color: #fff;
+        padding-bottom: 2em;
+    }
+    .pmode {
+        margin-top: 1.7em;
+    }
+
+    /* SEÇÃO 03 */
+    .imgphone {
+        display: none;
+    }
+    .imgmedio {
+        display: block;
+    }
+
+    /* SEÇÃO 04 */
+    #home04 {
+        background-image: url(imagens/back\ 04-md.jpg);
+        background-size: cover;
+        height: 35em;
+    }
+    .ofimda {
+        padding-top: 2em;
+        color: #fff;
+        font-weight: 600;
+    }
+    .paraquem {
+        width: 70%;
+        font-size: 1.3em;
+        color: #fff;
+        font-weight: 400;
+        margin-top: 1em;
+    }
+
+    /* SEÇÃO 05 */
+    .zerotaxa {
+        margin-top: 5em;
+        margin-bottom: 4em;
+    }
+    .buro {
+        padding-top: 6em;
+    }
+
+       /* SEÇÃO 06 */
+    .buro1 {
+    padding-top: 8em;
+    } 
+    #home06 {
+        padding-top: 0em;
+        background-color: rgb(214, 214, 229);
+    }
+    /* RODAPE */
+    #rodape {
+        height: 35em;
+        background-image: url(imagens/1650481085-phone-with-app-open-and-card-2x-md.jpg);
+        background-size: cover;
+        background-position: 20%;
+    }   
+    .textrodape {
+        padding-top: 3em;
+        width: 60%;
+        padding-left: -1em;
+    }
+}
+
+
+/*-----------Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+    #offcanvasNavbar > div.offcanvas-body > ul > div {
+        justify-content: end;
+        width: 42%;
+        flex-direction: row;
+    }
+    #offcanvasNavbar > div.offcanvas-body > ul > div > a {
+        background: rgb(130, 10, 209);
+        color: #fff;
+        font-weight: 600;
+        border-radius: 60px;
+        width: 10em;
+        margin-left: 0.9em;
+        padding-top: 7px;
+        border: none;
+    }
+    #offcanvasNavbar > div.offcanvas-body > ul > li > a {
+        font-weight: 500;
+    }
+
+                /*DROP VOCE*/
+    #offcanvasNavbar > div.offcanvas-body > ul > li > div > ul {
+        width: 1000px;
+        margin-left: -190px ;
+        border: none;
+    }
+                /*NAV BAR*/
+    #offcanvasNavbar > div.offcanvas-body > ul {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #offcanvasNavbar > div.offcanvas-body > ul > div > li > a {
+        font-size: 16px;
+        color: rgb(130, 10, 209);
+    }
+    /*DROP SEU NEGOCIO*/
+    #offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(3) > div > ul {
+        width: 1100px;
+        margin-left: -280px;
+    }
+
+    /*DROP O NUBANK*/
+
+    #offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(4) > div > ul {
+        margin-left: -420px;
+        width: 950px;
+    }
+    /* SEÇÃO 01 */
+    #home01 {
+        margin-top: 1em;
+        height: 40em;
+        background: url(imagens/nu\ background\ 01.jpg) repeat-x;
+        background-size: 100%;
+    }
+    #home01 > div > div > div:nth-child(2){
+        background-color: #fff;
+        border-radius: 5%;
+        height: 18em;
+        padding: 1.3em;
+    }
+    #home01 > div > div {
+        justify-content: space-between;
+    }
+    /* SEÇÃO 02 */
+
+    #home02 {
+        background-color: rgba(239, 239, 246, 0.962);
+        padding-top: 1.5em;
+        padding-bottom: 2em;
+    }
+    .pmode {
+        margin-top: 1.7em;
+    }
+    /* SEÇÃO 03 */
+
+    #home03 > div > div {
+        justify-content: center;
+    }
+    .imgphone {
+        display: block;
+        padding: 1em;
+    }
+    .imgmedio {
+        display: none;
+    }
+
+    /* SEÇÃO 04 */
+    #home04 {
+        background-image: url(imagens/back\ 04-lg.jpg);
+        background-size: cover;
+        background-position: right;
+        height: 40em;
+    }
+    .ofimda {
+        padding-top: 2em;
+        color: #fff;
+        font-weight: 600;
+        width: 20%;
+    }
+    .paraquem {
+        width: 50%;
+        font-size: 1.3em;
+        color: #fff;
+        font-weight: 400;
+        margin-top: 1em;
+    }
+
+        /* SEÇÃO 05 */
+
+    .zerotaxa {
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }
+    .buro {
+        padding-top: 6em;
+    }
+    /* RODAPE */
+    #rodape {
+        height: 35em;
+        background-image: url(imagens/1650481075-phone-with-app-open-and-card-2x-lg.jpg);
+        background-size: cover;
+    }
+    .textrodape {
+        padding-top: 20em;
+        width: 38%;
+    }
+}
+/*------------------X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+    #offcanvasNavbar > div.offcanvas-body > ul > div {
+        justify-content: end;
+        width: 53%;
+    }
+                /*DROP VOCE*/
+    #offcanvasNavbar > div.offcanvas-body > ul > li > div > ul {
+        width: 1100px;
+        margin-left: -190px ;
+        border: none;
+    }
+            /*DROP SEU NEGOCIO*/
+    #offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(3) > div > ul {
+        width: 1100px;
+        margin-left: -280px;
+    }
+        /*DROP O NUBANK*/
+
+    #offcanvasNavbar > div.offcanvas-body > ul > li:nth-child(4) > div > ul {
+        margin-left: -420px;
+        width: 1100px;
+    }
+
+    /* SEÇÃO 01 */
+    #home01 {
+        height: 40em;
+        background: url(imagens/nu\ background\ 01.jpg) repeat-x;
+        background-size: 100%;
+    }
+    #home01 > div > div > div:nth-child(2){
+        background-color: #fff;
+        border-radius: 5%;
+        height: 18em;
+        padding: 1.3em;
+    }
+    #home01 > div > div {
+        justify-content: space-between;
+    }
+    /* SEÇÃO 02 */
+
+    #home02 {
+        background-color: rgba(239, 239, 246, 0.962);
+        padding-top: 1.5em;
+        padding-bottom: 2em;
+    }
+    .pmode {
+        margin-top: -0.3em;
+    }
+    /* SEÇÃO 03 */
+
+    #home03 > div > div {
+        justify-content: center;
+    }
+
+    /* SEÇÃO 03 */
+
+    .imgmedio {
+        display: none;
+    }
+    .imgphone {
+        display: block;
+    }
+
+        /* SEÇÃO 04 */
+    #home04 {
+        background-image: url(imagens/back\ 04-lg.jpg);
+        background-size: cover;
+        background-position: right;
+        height: 40em;
+    }
+    .ofimda {
+        padding-top: 2em;
+        color: #fff;
+        font-weight: 500;
+    }
+    .paraquem {
+        width: 20%;
+        font-size: 1.3em;
+        color: #fff;
+        font-weight: 400;
+        margin-top: 1em;
+    }
+
+       /* SEÇÃO 05 */
+
+    .zerotaxa {
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }
+    .buro {
+        padding-top: 6em;
+    } 
+
+       /* SEÇÃO 06 */
+
+    .buro1 {
+        padding-top: 11em;
+    }
+
+    /* RODAPE */
+    #rodape {
+        height: 35em;
+        background-image: url(imagens/1650481075-phone-with-app-open-and-card-2x-lg.jpg);
+        background-size: cover;
+    }
+    .textrodape {
+        padding-top: 20em;
+        width: 38%;
+        padding-left: -2.5em;
+    }
+
+}
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}
